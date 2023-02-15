@@ -67,7 +67,7 @@ def main():
         for _ in range(seed_count):
             results.append(random.choice(areas))
 
-    print(f"Result: {max(set(results), key=results.count)}")
+    print(f"Results: Min: {min(set(results), key=results.count)}, Max: {max(set(results), key=results.count)}")
 
 
 if __name__ == "__main__":
